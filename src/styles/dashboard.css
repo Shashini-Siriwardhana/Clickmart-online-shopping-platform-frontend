@@ -1,0 +1,9 @@
+.search-bar {
+    background-color: #EBEBEB;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    justify-self: center;
+    margin-bottom: 30px;
+    
+}

@@ -1,0 +1,47 @@
+.add-item-card {
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #EBEBEB;
+}
+
+.add-item-card-title {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+}
+
+.input-field {
+    margin-bottom: 20px !important;
+}
+
+.input-label {
+    justify-self: start;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    margin-bottom: 3px !important;
+}
+
+.text-field {
+    background: #EBEBEB;
+    color: black;
+}
+
+.btn-group {
+    width: 390px;
+    display: flex; 
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn-group button[type="submit"], .control-btn-group button[type="submit"] {
+    background-color: #134980;
+}
+
+.btn-group button[type="button"] .control-btn-group button[type="button"]  {
+    border-color: #134980;
+    border-width: 1px;
+    color: #134980;
+}
