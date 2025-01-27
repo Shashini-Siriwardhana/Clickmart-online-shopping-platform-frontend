@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# Clickmart - Online Shopping Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Clickmart is a modern online shopping platform that offers seamless e-commerce experiences. Built using React for the frontend, Node.js for the backend, and MySQL for the database, this platform provides robust functionality for sellers to manage their products effectively.
 
-Currently, two official plugins are available:
+**Features**
+- Seller Management:
+  Sellers can:
+  - View their products
+  - Add new products
+  - Edit existing product details
+  - Delete products
+- User-Friendly Interface: Built with React for a smooth and intuitive user experience.
+- Backend API: Node.js backend with RESTful APIs to handle requests.
+- Database: MySQL used for secure and scalable data storage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+**Tech Stack**
+- Frontend: React
+- Backend: Node.js (Express.js)
+- Database: MySQL
